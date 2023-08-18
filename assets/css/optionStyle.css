@@ -1,0 +1,29 @@
+.underlineHighlight{
+    position: absolute;
+    background-color: #ccc;
+    opacity: 0;
+    transition: opacity 0s, transform 0.3s;
+    z-index: -1;
+    pointer-events: none;
+    height: 0.1rem;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    border-style: none none bold none;
+    border-color: white;
+}
+
+.menu-option {
+    text-decoration: none;
+    position: relative;
+    padding: 5px 10px;
+    color: #7406c8;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    position: relative;
+}

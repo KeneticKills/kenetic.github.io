@@ -1,0 +1,33 @@
+.bg{
+  background-color: #0a0017;
+}
+
+.logo{
+  font-family: "WL Dot Matrix", sans-serif;
+  font-size: 35px;
+  background: linear-gradient(to bottom, #1b0060, #3a005a);
+  text-align: center;
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+.nopadding{
+  margin: 0 0 0 0;
+  border: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: 'WL Dot Matrix';
+  src: url(../fonts/WLDotMatrixGlitchMono-Bold.ttf);
+  font-weight: 700;
+  font-style: normal;
+}
+
+.headText{
+  background: linear-gradient(to bottom, #7406c8 , #33b1ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
